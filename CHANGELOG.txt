@@ -1,5 +1,7 @@
 Date 7.x-2.x-dev, xxxx-xx-xx
 ----------------------------
+#3009740 by evgeny.chernyavskiy, DamienMcKenna, steinmb: PHP 7.3 compatibility,
+  swtich-continue.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
