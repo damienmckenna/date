@@ -4,6 +4,8 @@ Date 7.x-2.x-dev, xxxx-xx-xx
   swtich-continue.
 #1267434 by Ronino, DamienMcKenna, kingandy: Default value for #date_items
   should be an array in date_field_widget_form().
+#2706965 by DamienMcKenna, arulraj, joelstein: Getting browser autocomplete for
+  date pop fields.
 
 
 Date 7.x-2.11-beta1, 2018-10-26

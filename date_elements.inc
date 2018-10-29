@@ -363,6 +363,9 @@ function date_combo_element_process($element, &$form_state, $form) {
     case 'date_popup':
       $element[$from_field]['#type'] = 'date_popup';
       $element[$from_field]['#theme_wrappers'] = array('date_popup');
+      // Disable autocomplete in browsers.
+      // @see https://developer.mozilla.org/en-US/docs/Web/Security/Securing_your_site/Turning_off_form_autocompletion
+      $element[$from_field]['#attributes']['autocomplete'] = 'off';
       $element[$from_field]['#ajax'] = !empty($element['#ajax']) ? $element['#ajax'] : FALSE;
       break;
 
