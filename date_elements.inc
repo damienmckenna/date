@@ -107,7 +107,7 @@ function date_field_widget_form(&$form, &$form_state, $field, $instance, $langco
     '#date_is_default' => $is_default,
 
     // Store the original values, for use with disabled and hidden fields.
-    '#date_items' => isset($items[$delta]) ? $items[$delta] : '',
+    '#date_items' => isset($items[$delta]) ? $items[$delta] : array(),
   );
 
   $element['#title'] = $instance['label'];

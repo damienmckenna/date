@@ -2,6 +2,8 @@ Date 7.x-2.x-dev, xxxx-xx-xx
 ----------------------------
 #3009740 by evgeny.chernyavskiy, DamienMcKenna, steinmb: PHP 7.3 compatibility,
   swtich-continue.
+#1267434 by Ronino, DamienMcKenna: Default value for #date_items should be an
+  array in date_field_widget_form().
 
 
 Date 7.x-2.11-beta1, 2018-10-26
