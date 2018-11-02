@@ -6,6 +6,7 @@ Date 7.x-2.x-dev, xxxx-xx-xx
   should be an array in date_field_widget_form().
 #2706965 by DamienMcKenna, arulraj, joelstein: Getting browser autocomplete for
   date pop fields.
+Reverted #2123039.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
