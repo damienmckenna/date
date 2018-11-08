@@ -3,7 +3,8 @@ description = Makes date/time fields available.
 dependencies[] = date_api
 package = Date/Time
 core = 7.x
-php = 5.2
+
+; Integration with the migrate module.
 files[] = date.migrate.inc
 
 ; Dependencies for test coverage.

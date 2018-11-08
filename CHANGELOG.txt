@@ -7,6 +7,7 @@ Date 7.x-2.x-dev, xxxx-xx-xx
 #2706965 by DamienMcKenna, arulraj, joelstein: Getting browser autocomplete for
   date pop fields.
 Reverted #2123039.
+#3010076 by DamienMcKenna, steinmb: Improve coding standards in Date module.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
