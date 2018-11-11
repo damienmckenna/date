@@ -8,6 +8,7 @@ Date 7.x-2.x-dev, xxxx-xx-xx
   date pop fields.
 Reverted #2123039.
 #3010076 by DamienMcKenna, steinmb: Improve coding standards in Date module.
+#3012729 by joseph.olstad, lazzyvn: Bad variable $elent.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
