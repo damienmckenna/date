@@ -310,10 +310,10 @@ class date_sql_handler {
       case 'mysql':
         switch ($direction) {
           case 'ADD':
-            return "DATE_ADD(CAST($field AS DATETIME), INTERVAL $count $granularity)";
+            return "DATE_ADD($field, INTERVAL $count $granularity)";
 
           case 'SUB':
-            return "DATE_SUB(CAST($field AS DATETIME), INTERVAL $count $granularity)";
+            return "DATE_SUB($field, INTERVAL $count $granularity)";
         }
 
       case 'pgsql':
