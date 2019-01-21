@@ -17,6 +17,8 @@ Reverted #2123039.
   'value' in date_combo_element_process.
 #2792385 by binoli.addweb, brunodbo, pingwin4eg, joelpittet, DamienMcKenna:
   Include project namespace in dependency declaration.
+#1138210 by djdevin, kyoder, coltrane, cafuego, JvE: date_sql_handler
+  STR_TO_DATE math incorrect.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
