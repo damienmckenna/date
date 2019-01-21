@@ -109,7 +109,13 @@ function date_field_formatter_view($entity_type, $entity, $field, $instance, $la
   //   If TRUE, tells the theme to show all the computed values
   //   of a repeating date. If not TRUE or not set, only the
   //   start date and the repeat rule will be displayed.
-  $element = array();
+  $element = array(
+    '#attached' => array(
+      'css' => array(
+      drupal_get_path('module', 'date_api') . '/date.css',
+      )
+    ),
+  );
   $settings = $display['settings'];
   $formatter = $display['type'];
   $variables = array(

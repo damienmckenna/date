@@ -11,6 +11,8 @@ Reverted #2123039.
 #3012729 by joseph.olstad, lazzyvn: Bad variable $elent.
 #2843367 by artem0793, Liam Morland, azovsky: String Offset errors on edit page
   using PHP 7.1.0.
+#2447277 by SebCorbin, steinmb: Performance: replace sylesheets[all][] with
+  attached.
 
 
 Date 7.x-2.11-beta1, 2018-10-26

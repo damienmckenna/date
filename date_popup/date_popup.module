@@ -220,6 +220,9 @@ function date_popup_element_info() {
     '#process' => array('date_popup_element_process'),
     '#value_callback' => 'date_popup_element_value_callback',
     '#theme_wrappers' => array('date_popup'),
+    '#attached' => array('css' => array(
+      drupal_get_path('module', 'date_popup'). '/themes/datepicker.1.7.css',
+    )),
   );
 
   if (module_exists('ctools')) {

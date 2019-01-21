@@ -238,4 +238,5 @@ function template_preprocess_date_views_filter_form(&$vars) {
   $vars['minadjustment'] = drupal_render($form['minadjustment']);
   $vars['maxadjustment'] = drupal_render($form['maxadjustment']);
   $vars['description'] = drupal_render($form['description']) . drupal_render($form);
+  drupal_add_css(drupal_get_path('module', 'date_api') . '/date.css');
 }

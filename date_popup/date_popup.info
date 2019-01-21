@@ -5,4 +5,3 @@ core = 7.x
 configure = admin/config/date/date_popup
 
 dependencies[] = date_api
-stylesheets[all][] = themes/datepicker.1.7.css
