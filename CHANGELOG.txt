@@ -11,6 +11,8 @@ Reverted #2123039.
 #3012729 by joseph.olstad, lazzyvn: Bad variable $elent.
 #2843367 by artem0793, Liam Morland, azovsky: String Offset errors on edit page
   using PHP 7.1.0.
+#1138210 by djdevin, kyoder, coltrane, cafuego, JvE: date_sql_handler
+  STR_TO_DATE math incorrect.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
