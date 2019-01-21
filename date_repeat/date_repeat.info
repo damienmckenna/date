@@ -4,7 +4,7 @@ package = Date/Time
 core = 7.x
 php = 5.2
 
-dependencies[] = date_api
+dependencies[] = date:date_api
 
 files[] = tests/date_repeat.test
 files[] = tests/date_repeat_form.test

@@ -4,4 +4,4 @@ package = Date/Time
 version = VERSION
 core = 7.x
 hidden = TRUE
-dependencies[] = date
+dependencies[] = date:date

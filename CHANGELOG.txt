@@ -15,6 +15,8 @@ Reverted #2123039.
   attached.
 #2990189 by solotandem, jacob.embree, theaxe, sonnykt: Illegal string offset
   'value' in date_combo_element_process.
+#2792385 by binoli.addweb, brunodbo, pingwin4eg, joelpittet, DamienMcKenna:
+  Include project namespace in dependency declaration.
 
 
 Date 7.x-2.11-beta1, 2018-10-26

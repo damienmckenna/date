@@ -4,4 +4,4 @@ package = Date/Time
 core = 7.x
 configure = admin/config/date/date_popup
 
-dependencies[] = date_api
+dependencies[] = date:date_api

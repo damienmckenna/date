@@ -1,6 +1,6 @@
 name = Date
 description = Makes date/time fields available.
-dependencies[] = date_api
+dependencies[] = date:date_api
 package = Date/Time
 core = 7.x
 

@@ -4,8 +4,8 @@ package = Date/Time
 core = 7.x
 php = 5.2
 
-dependencies[] = date_api
-dependencies[] = views
+dependencies[] = date:date_api
+dependencies[] = views:views
 
 files[] = includes/date_views_argument_handler.inc
 files[] = includes/date_views_argument_handler_simple.inc
