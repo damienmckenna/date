@@ -13,6 +13,8 @@ Reverted #2123039.
   using PHP 7.1.0.
 #2447277 by SebCorbin, steinmb: Performance: replace sylesheets[all][] with
   attached.
+#2990189 by solotandem, jacob.embree, theaxe, sonnykt: Illegal string offset
+  'value' in date_combo_element_process.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
