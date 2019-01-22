@@ -22,6 +22,9 @@ Reverted #2123039.
 #1415210 by jgullstr, nmudgal, ohthehugemanatee, djdevin, asirjacques,
   christine1126, steinmb, cydharttha, Jelle_S: Date popup calender doesn't
   popup when reach to text-field via tab.
+#2894759 by DamienMcKenna, Mansi.AddWeb, hiramanpatil,
+  Michael_Lessard_micles.biz, steinmb: (All Day) : the parantheses are
+  hardcoded.
 
 
 Date 7.x-2.11-beta1, 2018-10-26
