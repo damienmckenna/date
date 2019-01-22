@@ -25,6 +25,8 @@ Reverted #2123039.
 #2894759 by DamienMcKenna, Mansi.AddWeb, hiramanpatil,
   Michael_Lessard_micles.biz, steinmb: (All Day) : the parantheses are
   hardcoded.
+#2703401 by jacob.embree, le72, Chris2: Bad assumption about year range format
+  in date_devel_generate().
 
 
 Date 7.x-2.11-beta1, 2018-10-26

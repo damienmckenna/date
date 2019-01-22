@@ -14,12 +14,8 @@ function date_devel_generate($entity, $field, $instance, $bundle) {
     $split = explode(':', $instance['widget']['settings']['year_range']);
     // Determine how much to go back and forward depending on whether a relative
     // number of years (with - or + sign) or an absolute year is given.
-    $back = strpos($split[0], '-') === 0
-      ? str_replace('-', '', $split[0])
-      : date_format(date_now(), 'Y') - $split[0];
-    $forward = strpos($split[1], '+') === 0
-      ? str_replace('+', '', $split[1])
-      : $split[1] - date_format(date_now(), 'Y');
+    $back = $split[0];
+    $forward = $split[1];
   }
   else {
     $back = 2;
@@ -27,7 +23,8 @@ function date_devel_generate($entity, $field, $instance, $bundle) {
   }
   // Pick a random year within the time range,
   // and a random second within that year.
-  $year = date_format(date_now(), 'Y') - $back + mt_rand(0, ($forward + $back));
+  $this_year = date_format(date_now(), 'Y');
+  $year = mt_rand($this_year + $back, $this_year + $forward);
   $start = new DateObject($year . '-01-01 00:00:00', date_get_timezone_db($field['settings']['tz_handling']));
   $leap = date_format($start, 'L');
   $max_days = $leap ? 366 : 365;
