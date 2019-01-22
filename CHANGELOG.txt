@@ -19,6 +19,9 @@ Reverted #2123039.
   Include project namespace in dependency declaration.
 #1138210 by djdevin, kyoder, coltrane, cafuego, JvE: date_sql_handler
   STR_TO_DATE math incorrect.
+#1415210 by jgullstr, nmudgal, ohthehugemanatee, djdevin, asirjacques,
+  christine1126, steinmb, cydharttha, Jelle_S: Date popup calender doesn't
+  popup when reach to text-field via tab.
 
 
 Date 7.x-2.11-beta1, 2018-10-26

@@ -12,10 +12,8 @@
         case 'datepicker':
           $(this)
             .datepicker(datePopup.settings)
-            .addClass('date-popup-init');
-          $(this).click(function(){
-            $(this).focus();
-          });
+            .addClass('date-popup-init')
+            .focus();
           if (datePopup.settings.syncEndDate) {
             $('.start-date-wrapper').each(function(){
               var start_date_wrapper = this;
@@ -29,10 +27,8 @@
         case 'timeEntry':
           $(this)
             .timeEntry(datePopup.settings)
-            .addClass('date-popup-init');
-          $(this).click(function(){
-            $(this).focus();
-          });
+            .addClass('date-popup-init')
+            .focus();
           break;
 
         case 'timepicker':
@@ -56,10 +52,8 @@
           datePopup.settings.startTime = new Date(datePopup.settings.startTime);
           $(this)
             .timepicker(datePopup.settings)
-            .addClass('date-popup-init');
-          $(this).click(function(){
-            $(this).focus();
-          });
+            .addClass('date-popup-init')
+            .focus();
           break;
       }
     }
