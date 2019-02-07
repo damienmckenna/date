@@ -5,6 +5,8 @@ Date 7.x-2.x-dev, xxxx-xx-xx
   date.field.inc.
 #3022378 by dev11235, DamienMcKenna, joelpittet: Date with empty "Repeats #
   Weeks" and "Repeats Every # of Days" validation needed.
+#2769057 by id.medion, Chris Matthews, steinmb: Remove unused argument in the
+  function calls field_cache_clear() and field_info_cache_clear(),
 
 
 Date 7.x-2.11-beta2, 2018-10-26
