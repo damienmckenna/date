@@ -3,6 +3,8 @@ Date 7.x-2.x-dev, xxxx-xx-xx
 #1392472 by Taran2L, jvandooren, podarok, jeff h, FluxSauce, maen, solotandem,
   nickonom, anrikun, JvE, steinmb, joelpittet: Undefined index: timezone in
   date.field.inc.
+#3022378 by dev11235, DamienMcKenna, joelpittet: Date with empty "Repeats #
+  Weeks" and "Repeats Every # of Days" validation needed.
 
 
 Date 7.x-2.11-beta2, 2018-10-26
